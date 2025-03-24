@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #around{
+            border: 1px solid black;
+            width:500px;
+            height: 500px;
+            margin: auto;
+            text-align: center;
+            position: relative;
+        }
+        #input{
+            width: 200px;
+           height:20px
+        }
+        #btn{
+             position: absolute;
+            left:300px;
+            border:1px solid black;
+            height: 26px;
+        }
+        #father{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: auto;
+        }
+        img{
+            width:100px;
+            height:100px;
+        }
+    </style>
+    <div id="around">
+        <h1>Ung dung thoi tiet</h1>
+        <input type="text" id="input" placeholder="Ten thanh pho">
+        <button id="btn">Tim kiem</button>
+        <div id="gird">
+        </div>
+    </div>
+    <script src="Ex6.js">
+    </script>
+</body>
+</html>
